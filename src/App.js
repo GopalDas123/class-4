@@ -1,5 +1,5 @@
-import {React} from 'react';
-// import logo from './logo.svg';
+import React from 'react';
+import logo from './logo.svg';
 import './App.css';
 import Room from './Room';
 // import "./go.css"
@@ -9,6 +9,7 @@ function App() {
     <div>
       <h1>This is main App</h1>
       <Room></Room>
+      <logo></logo>
     </div>
   );
 }
